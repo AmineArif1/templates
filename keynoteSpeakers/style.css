@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Keynote {
+  background-color: #253e36;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em;
+  width: 100%;
+ 
+}
+.Profiles{
+    display: flex;
+    justify-content: center;
+} 
+
+
+.Profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0.8em;
+}
+
+.Keynote-title {
+  text-align: center;
+}
+.Keynote-image {
+  width: 60%;
+}
+.Speaker-name {
+  font-size: 1.6rem;
+}
+.Speaker-bio {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 794px) {
+    .Profiles{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Profiles{
+        display: flex;
+        justify-content: center;
+    } 
+    .Keynote {
+        background-color: #253e36;
+        color: #ffffff;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 0.5em;
+        width: 100%;
+       
+      }
+      .Keynote-image {
+        width: 40%
+      }
+      .Speaker-name {
+        font-size: 2rem;
+      }
+      .Speaker-bio {
+        font-size: 1.2rem;
+      }
+      
+    
+}
